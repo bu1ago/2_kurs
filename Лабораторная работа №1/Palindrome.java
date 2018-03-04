@@ -5,13 +5,13 @@ public class Palindrome {
 	Scanner scan = new Scanner(System.in);
         String[] slovo = new String[5];
         for (int i = 0; i < 4; i++) {
-            System.out.println("Ââåäèòå ñòðîêó");
+            System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð¾ÐºÑƒ");
             slovo[i] = scan.nextLine();
         }
         for (int i = 0; i < 4; i++) {    
         System.out.println(slovo[i]);
             if (isPalindrome(slovo[i]))
-                System.out.println("Ñòðîêà ÿâëÿåòñÿ ïàëèíäðîìîì.");
+                System.out.println("Ð¡Ñ‚Ñ€Ð¾ÐºÐ° ÑÐ²Ð»ÑÐµÑ‚ÑÑ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼Ð¾Ð¼.");
         }
         }
     
